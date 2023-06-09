@@ -1,0 +1,17 @@
+---
+import Social from "./Social.astro";
+const platform = "github";
+const github = "ogubuike245";
+const twitter = "spinkq";
+const { url, title } = Astro.props;
+---
+
+<li>
+    <a href={url}>{title}</a>
+</li>
+
+<style>
+    li {
+        list-style-type: none;
+    }
+</style>
